@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+@import './navbar.css';
+@import './home.css';
+@import './about.css';
+@import './maps.css';
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+:root {
+    --mainColor: #2F803A;
+    --mainColorLight: #bdffc6;
+    --whiteColor: #ffffff;
+    --textColor: #ffffff;
+    --lightGrey: #D3D3D3;
+    --textColour: rgb(100, 14, 14);
+}
+
+
+
+
+.overlay-text-service {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Trading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    margin-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.ServiceList {
+    margin-right: 20px;
+    font-size: 1.2rem;
+    color: var(--textColour);
+    margin-left: 20px;
+}
+
+.ServiceList hr {
+    border-top: 1px black #ccc;
+    margin: 1rem 0;
+    margin-bottom: 20px;
+}
+
+.ServiceList p {
+    padding-bottom: 10px;
+}
+
+.ServiceList ul {
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+
+
+.ServiceBold {
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .ServiceList {
+        flex-direction: column;
+        flex: 1;
+        margin-right: 40px;
+        font-size: 1rem;
+        color: var(--textColour);
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .overlay-text-service {
+        font-size: 1.5rem;
+    }
+    
+    
+}

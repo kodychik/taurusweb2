@@ -1,0 +1,137 @@
+.AboutImage {
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.AboutSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    flex-direction: column;
+}
+
+.aboutContainer {
+    background-color: white;
+}
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+    
+    
+}
+.AboutText {
+    
+    flex: 1;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    color: var(--textColour);
+    padding: 2%;
+}
+
+.AboutSection .Careers {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 2.5rem;
+    color: var(--textColour);
+    padding: 2%;
+}
+
+.AboutSection .Careers hr {
+    border: 0;
+    border-top: 1px transparent #ccc;
+    margin: 0rem 0;
+    margin-bottom: 20px;
+}
+
+.AboutText p {
+    margin-bottom: 0rem;
+}
+
+.AboutText hr {
+    border: 0;
+    border-top: 1px transparent #ccc;
+    margin: 0rem 0;
+    margin-bottom: 20px;
+}
+
+.AboutImg2Cont {
+    flex-direction: column;
+    align-items: center;
+}
+
+.AboutImage2 {
+    flex-direction: column;
+    max-width: 400px;
+    border: 1px solid var(--textColour);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    object-fit: cover;
+    transition: transform .3s ease;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    
+}
+
+.AboutImage2:hover {
+    transform: scale(1.05);
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .AboutSection {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .AboutText {
+        flex: 1;
+        margin-right: 20px;
+        font-size: 1rem;
+        color: var(--textColour);
+        padding: 5%;
+    }
+    .AboutText hr {
+        border: 0;
+        border-top: 0.5px transparent #ccc;
+        margin: 1rem 0;
+    }
+
+    .AboutImage2 {
+        max-width: 150px;
+        border: 1px solid var(--textColour);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        object-fit: cover;
+        transition: transform .3s ease;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        
+    }
+    
+    .AboutImage2:hover {
+        transform: scale(1.02);
+    }
+
+    
+
+    .overlay-text {
+        font-size: 1.5rem;
+    }
+}

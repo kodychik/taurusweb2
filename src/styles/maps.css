@@ -1,0 +1,37 @@
+.mapsContainer {
+    display: flex;
+    padding: 5%;
+    
+}
+
+.map {
+    border-radius: 3%;
+    margin-right: 2%;
+}
+
+.mapText {
+    flex-direction: row;
+    font-size: 1.2rem;
+    color: var(--textColour);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.mapText hr {
+    border-top: 1px black #ccc;
+    margin: 1rem 0;
+    margin-bottom: 20px;
+}
+
+.mapText.Bold {
+    font-weight: bold;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mapContainer {
+        flex-direction: column;
+    }
+}
