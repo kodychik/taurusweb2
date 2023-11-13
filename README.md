@@ -64,6 +64,6 @@
 - Theory of Computation
 
 
-# [Taurus Commodity Trading Front End Website](https://www.example.com)
+# [Taurus Commodity Trading Front End Website](https://taurus.com.hk/)
 
 Led the conceptualization, execution, and deployment of a dynamic and fully responsive front-end website, utilizing a tech stack encompassing HTML, CSS, ReactJS, and Bootstrap, to elevate the digital presence of Taurus—a prominent trading entity headquartered in Hong Kong. Acquired a profound understanding of critical web technologies, including HTTP, web browsers, the Document Object Model (DOM), SSL, and web servers, through immersive, hands-on experiences. The implementation of strategic optimizations resulted in a noteworthy 30% enhancement in website performance and an impressive 50% reduction in loading times, attesting to a meticulous approach to performance engineering. Effectively delivered a cutting-edge, responsive web solution tailored to the unique requirements of a user base exceeding 100 daily visitors, thereby playing a pivotal role in amplifying the company's market influence and fostering heightened user engagement.
