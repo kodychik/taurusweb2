@@ -1,5 +1,7 @@
 # Kody Chik, UofT Computer Science 25'
 
+## [Visit My Portfolio](https://kodychik.github.io/Portfolio/public_html)
+
 ## Skills 🚀
 
 ### Languages
@@ -60,7 +62,7 @@
 - Theory of Computation
 
 
-# Taurus Commodity Trading Front End Website
+# [Taurus Commodity Trading Front End Website](https://www.example.com)
 
 
 
