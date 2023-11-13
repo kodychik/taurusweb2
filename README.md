@@ -2,6 +2,8 @@
 
 ## [Visit My Portfolio](https://kodychik.github.io/Portfolio/public_html)
 
+#### Here is my repo for a front-end website that I worked on for Taurus. A commodity trading company based out of Hong Kong. I will include a bit about myself as well and feel free to have a look at the website that is live! (Link is below)
+
 ## Skills 🚀
 
 ### Languages
